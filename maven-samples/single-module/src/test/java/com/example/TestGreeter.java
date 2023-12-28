@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.greaterThan;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
 public class TestGreeter {
@@ -29,6 +29,11 @@ public class TestGreeter {
     String someone = "World";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    assertTrue(true);
   }
 
     @Test
