@@ -32,7 +32,7 @@ public class TestGreeter {
   }
   
   @Test
-  public void greetShouldIncludeGreetingPhrase() {
+  public void greetShouldIncludeGreetingPhraseyuvi() {
     assertTrue(true);
   }
 
