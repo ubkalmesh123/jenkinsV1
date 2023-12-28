@@ -32,11 +32,6 @@ public class TestGreeter {
   }
   
   @Test
-  public void greetShouldIncludeGreetingPhraseyuvi() {
-    assertTrue(true);
-  }
-
-    @Test
   public void greetShouldIncludeGreetingMessage() {
     String someone = "World, Thanks you making me Happy";
 
